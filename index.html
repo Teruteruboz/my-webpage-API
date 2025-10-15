@@ -255,12 +255,17 @@
                         <p class="text-slate-600">ユーザーのブラウザがコードを読み込み、APIキーを持ってGoogleのサーバーに地図データをリクエスト。Googleはキーとサイトを検証し、問題なければ地図データを返します。</p>
                         <div class="mt-4 p-4 bg-slate-100 rounded-lg space-y-2 text-center font-semibold">
                             <div class="flow-diagram-arrow p-2 bg-white rounded shadow-sm">🌐 ブラウザがコードとAPIキーを読む</div>
+                            <div class="flow-diagram-arrow text-2xl text-blue-500 font-bold" style="animation-delay: 0.25s;">↓</div>
                             <div class="flow-diagram-arrow p-2 bg-white rounded shadow-sm" style="animation-delay: 0.5s;">🔑 + 🌐 → ☁️ Googleにリクエスト</div>
+                            <div class="flow-diagram-arrow text-2xl text-blue-500 font-bold" style="animation-delay: 0.75s;">↓</div>
                             <div class="flow-diagram-arrow p-2 bg-green-100 text-green-800 rounded shadow-sm" style="animation-delay: 1s;">☁️ キーとサイトを検証: OK! ✅</div>
+                            <div class="flow-diagram-arrow text-2xl text-blue-500 font-bold" style="animation-delay: 1.25s;">↓</div>
                             <div class="flow-diagram-arrow p-2 bg-white rounded shadow-sm" style="animation-delay: 1.5s;">☁️ → 🗺️ 地図データを返却</div>
+                            <div class="flow-diagram-arrow text-2xl text-blue-500 font-bold" style="animation-delay: 1.75s;">↓</div>
                             <div class="flow-diagram-arrow p-2 bg-blue-100 text-blue-800 rounded shadow-sm" style="animation-delay: 2s;">🌐 → 🖥️ ブラウザが地図を描画</div>
+
                         </div>
-                    </div>
+                        </div>
                 </div>
             </div>
             
